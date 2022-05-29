@@ -1,14 +1,7 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Windows Zoom Replication",
 	"version": "1",
-	// gecko stores browser specific things, no need for it using chrome
-	//"applications": {
-	//	"gecko": {
-	//		"id": "{90b5a72e-cdbd-49df-8304-5b5d6ea84a0f}",
-	//		"strict_min_version": "57.0"
-	//	}
-	//},
 
 	"description": "Adiciona o gesto multi toque de zoom que o chrome experiencia no Windows",
 
