@@ -28,4 +28,4 @@ document.getElementById('mtzoom_speed').addEventListener('change', function (eve
 //});
 // código para optimização // apenas funcional no Firefox
 // monte de coisas aqui que não deviam estar a funcionar
-// não faz sentido, mas funcionam, então pronto :)
+// não faz sentido, mas funcionam, então pronto :D
