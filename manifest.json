@@ -1,0 +1,36 @@
+{
+	"manifest_version": 2,
+	"name": "Windows Zoom Replication",
+	"version": "1",
+	// gecko stores browser specific things, no need for it using chrome
+	//"applications": {
+	//	"gecko": {
+	//		"id": "{90b5a72e-cdbd-49df-8304-5b5d6ea84a0f}",
+	//		"strict_min_version": "57.0"
+	//	}
+	//},
+
+	"description": "Adiciona o gesto multi toque de zoom que o chrome experiencia no Windows",
+
+
+	"icons": {
+		"48": "icons/icon-48.png",
+		"96": "icons/icon-96.png",
+		"192": "icons/icon-192.png"
+	},
+
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["pinch-zoom.js"],
+		"run_at": "document_start"
+	}],
+
+	"permissions": [
+		"storage",
+        "debugger"
+	],
+
+	"options_ui": {
+		"page": "settings.html"
+	}
+}
